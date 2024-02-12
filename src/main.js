@@ -10,6 +10,7 @@ const form = document.querySelector('.form');
 const loader = document.querySelector('.loader');
 const galleryItems = document.querySelector('.gallery');
 
+
 const iziToastOptions = {
   backgroundColor: 'red',
   messageColor: 'white',
