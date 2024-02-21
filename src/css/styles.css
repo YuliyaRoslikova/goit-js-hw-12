@@ -25,6 +25,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -62,19 +63,19 @@ body {
   border-color: #4e75ff;
 }
 
-.form-button {
+.button {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: #fff;
-  width: 100%;
-  max-width: 90px;
+  padding: 10px 15px;
   border: none;
   background-color: #4e75ff;
   border-radius: 8px;
 }
 
-.form-button:hover,
-.form-button:focus {
+
+.button:hover,
+.button:focus {
   background-color: #6c8cff;
 }
 
